@@ -2,13 +2,19 @@
     "env_desc" : "dependency_env 0: 版本依赖，1: 标签Tag，2: 分支依赖，默认依赖develop分支，如有特殊要求，可指定分支版本依赖，3: 本地源码依赖，4: 美事依赖的gitHub库",
     "components" : [
         {
-            "dependency_env" : 2,
+            "dependency_env" : 3,
             "pod" : "ZQFoundation",
+            "version" : "1.0.0",
+            "branch" : ""
+        },
+        {
+            "dependency_env" : 3,
+            "pod" : "ZQRouter",
             "version" : "1.0.0",
             "branch" : ""
         }
     ] ,
     "zq_git" : "git@github.com:MrZQxiao",
-    "repositoriesPath" : "~/Desktop/workspace/Repositories",
+    "repositoriesPath" : "~/Desktop/workspace/Repositories/",
     "branch" : "develop"
 }

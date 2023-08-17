@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A70F5B89D3C68139462FA53A /* Pods_ZQModuleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D220E67A4717F3195619A8 /* Pods_ZQModuleDemo.framework */; };
+		B13EFF3F2A8DC7C4004F4482 /* innerPodConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = B13EFF3E2A8DC7C4004F4482 /* innerPodConfig.json */; };
 		B1A5FFAF2A8CC01100B94A2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFAE2A8CC01100B94A2A /* AppDelegate.m */; };
 		B1A5FFB22A8CC01100B94A2A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFB12A8CC01100B94A2A /* SceneDelegate.m */; };
 		B1A5FFB52A8CC01100B94A2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFB42A8CC01100B94A2A /* ViewController.m */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		83D220E67A4717F3195619A8 /* Pods_ZQModuleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQModuleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8825E8B7B15BAFB36633B420 /* Pods-ZQModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQModuleDemo.release.xcconfig"; path = "Target Support Files/Pods-ZQModuleDemo/Pods-ZQModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B13EFF3E2A8DC7C4004F4482 /* innerPodConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = innerPodConfig.json; sourceTree = SOURCE_ROOT; };
 		B1A5FFAA2A8CC01100B94A2A /* ZQModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A5FFAD2A8CC01100B94A2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1A5FFAE2A8CC01100B94A2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,7 +94,6 @@
 				CB079A020BB6F8FEA0492298 /* Pods-ZQModuleDemo.debug.xcconfig */,
 				8825E8B7B15BAFB36633B420 /* Pods-ZQModuleDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,6 +130,7 @@
 		B1A5FFAC2A8CC01100B94A2A /* ZQModuleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B13EFF3E2A8DC7C4004F4482 /* innerPodConfig.json */,
 				B1A5FFAD2A8CC01100B94A2A /* AppDelegate.h */,
 				B1A5FFAE2A8CC01100B94A2A /* AppDelegate.m */,
 				B1A5FFB02A8CC01100B94A2A /* SceneDelegate.h */,
@@ -265,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13EFF3F2A8DC7C4004F4482 /* innerPodConfig.json in Resources */,
 				B1A5FFBD2A8CC01500B94A2A /* LaunchScreen.storyboard in Resources */,
 				B1A5FFBA2A8CC01500B94A2A /* Assets.xcassets in Resources */,
 				B1A5FFB82A8CC01100B94A2A /* Main.storyboard in Resources */,
@@ -502,11 +505,24 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"ZQFoundation\"",
+					"-framework",
+					"\"ZQRouter\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = qzxs.ZQModuleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -530,11 +546,24 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"ZQFoundation\"",
+					"-framework",
+					"\"ZQRouter\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = qzxs.ZQModuleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
