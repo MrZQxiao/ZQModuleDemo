@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70F5B89D3C68139462FA53A /* Pods_ZQModuleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D220E67A4717F3195619A8 /* Pods_ZQModuleDemo.framework */; };
 		B1A5FFAF2A8CC01100B94A2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFAE2A8CC01100B94A2A /* AppDelegate.m */; };
 		B1A5FFB22A8CC01100B94A2A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFB12A8CC01100B94A2A /* SceneDelegate.m */; };
 		B1A5FFB52A8CC01100B94A2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFB42A8CC01100B94A2A /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83D220E67A4717F3195619A8 /* Pods_ZQModuleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQModuleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8825E8B7B15BAFB36633B420 /* Pods-ZQModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQModuleDemo.release.xcconfig"; path = "Target Support Files/Pods-ZQModuleDemo/Pods-ZQModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B1A5FFAA2A8CC01100B94A2A /* ZQModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A5FFAD2A8CC01100B94A2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1A5FFAE2A8CC01100B94A2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		B1A5FFCF2A8CC01500B94A2A /* ZQModuleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQModuleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A5FFD32A8CC01500B94A2A /* ZQModuleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQModuleDemoUITests.m; sourceTree = "<group>"; };
 		B1A5FFD52A8CC01500B94A2A /* ZQModuleDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQModuleDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CB079A020BB6F8FEA0492298 /* Pods-ZQModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQModuleDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZQModuleDemo/Pods-ZQModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70F5B89D3C68139462FA53A /* Pods_ZQModuleDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15182491CA47EBD482743D07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB079A020BB6F8FEA0492298 /* Pods-ZQModuleDemo.debug.xcconfig */,
+				8825E8B7B15BAFB36633B420 /* Pods-ZQModuleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45D0175C7FCCFF2FDB4EDE09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D220E67A4717F3195619A8 /* Pods_ZQModuleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B1A5FFA12A8CC01100B94A2A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +111,8 @@
 				B1A5FFC82A8CC01500B94A2A /* ZQModuleDemoTests */,
 				B1A5FFD22A8CC01500B94A2A /* ZQModuleDemoUITests */,
 				B1A5FFAB2A8CC01100B94A2A /* Products */,
+				15182491CA47EBD482743D07 /* Pods */,
+				45D0175C7FCCFF2FDB4EDE09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1A5FFD92A8CC01500B94A2A /* Build configuration list for PBXNativeTarget "ZQModuleDemo" */;
 			buildPhases = (
+				FBE10983C642B5A4AB99C6A5 /* [CP] Check Pods Manifest.lock */,
 				B1A5FFA62A8CC01100B94A2A /* Sources */,
 				B1A5FFA72A8CC01100B94A2A /* Frameworks */,
 				B1A5FFA82A8CC01100B94A2A /* Resources */,
@@ -260,6 +286,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBE10983C642B5A4AB99C6A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZQModuleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1A5FFA62A8CC01100B94A2A /* Sources */ = {
@@ -437,6 +488,7 @@
 		};
 		B1A5FFDA2A8CC01500B94A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB079A020BB6F8FEA0492298 /* Pods-ZQModuleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +516,7 @@
 		};
 		B1A5FFDB2A8CC01500B94A2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8825E8B7B15BAFB36633B420 /* Pods-ZQModuleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
