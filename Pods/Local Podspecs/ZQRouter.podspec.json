@@ -1,0 +1,27 @@
+{
+  "name": "ZQRouter",
+  "version": "1.0.0",
+  "summary": "路由组件",
+  "description": "组件化demo中的路由组件",
+  "homepage": "https://www.jianshu.com/u/33e45e444e13",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaozq": "285061422@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MrZQxiao/ZQRouter.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ZQRouter/Router/**/*",
+  "dependencies": {
+    "ZQFoundation/Categories": [
+
+    ]
+  }
+}

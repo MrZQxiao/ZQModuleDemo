@@ -1,0 +1,6 @@
+framework module ZQHome {
+  umbrella header "ZQHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

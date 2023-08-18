@@ -6,6 +6,36 @@
             "pod" : "ZQFoundation",
             "version" : "1.0.0",
             "branch" : ""
+        },{
+            "dependency_env" : 2,
+            "pod" : "ZQRouter",
+            "version" : "1.0.0",
+            "branch" : ""
+        },{
+            "dependency_env" : 2,
+            "pod" : "ZQHome",
+            "version" : "1.0.0",
+            "branch" : ""
+        },{
+            "dependency_env" : 2,
+            "pod" : "ZQLogin",
+            "version" : "1.0.0",
+            "branch" : ""
+        },{
+            "dependency_env" : 2,
+            "pod" : "ZQMine",
+            "version" : "1.0.0",
+            "branch" : ""
+        },{
+            "dependency_env" : 2,
+            "pod" : "ZQMixedModule",
+            "version" : "1.0.0",
+            "branch" : ""
+        },{
+            "dependency_env" : 2,
+            "pod" : "ZQSwiftModule",
+            "version" : "1.0.0",
+            "branch" : ""
         }
     ] ,
     "zq_git" : "git@github.com:MrZQxiao",

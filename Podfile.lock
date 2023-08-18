@@ -1,21 +1,107 @@
 PODS:
-  - ZQFoundation (1.0.0)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+  - ZQFoundation (1.0.1):
+    - ZQFoundation/Base (= 1.0.1)
+  - ZQFoundation/Base (1.0.1):
+    - ZQFoundation/Categories
+  - ZQFoundation/Categories (1.0.1):
+    - MJExtension
+    - SDWebImage
+  - ZQHome (1.0.1):
+    - ZQHome/Kit (= 1.0.1)
+    - ZQHome/Mediator (= 1.0.1)
+  - ZQHome/Kit (1.0.1):
+    - MJRefresh
+    - ReactiveObjC
+    - ZQFoundation
+  - ZQHome/Mediator (1.0.1):
+    - ZQHome/Kit
+  - ZQLogin (1.0.0)
+  - ZQMine (1.0.0)
+  - ZQMixedModule (1.0.0)
+  - ZQRouter (1.0.0):
+    - ZQFoundation/Categories
+  - ZQSwiftModule (1.0.0)
 
 DEPENDENCIES:
   - "ZQFoundation (from `git@github.com:MrZQxiao/ZQFoundation.git`, branch `develop`)"
+  - "ZQHome (from `git@github.com:MrZQxiao/ZQHome.git`, branch `develop`)"
+  - "ZQLogin (from `git@github.com:MrZQxiao/ZQLogin.git`, branch `develop`)"
+  - "ZQMine (from `git@github.com:MrZQxiao/ZQMine.git`, branch `develop`)"
+  - "ZQMixedModule (from `git@github.com:MrZQxiao/ZQMixedModule.git`, branch `develop`)"
+  - "ZQRouter (from `git@github.com:MrZQxiao/ZQRouter.git`, branch `develop`)"
+  - "ZQSwiftModule (from `git@github.com:MrZQxiao/ZQSwiftModule.git`, branch `develop`)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
 
 EXTERNAL SOURCES:
   ZQFoundation:
     :branch: develop
     :git: "git@github.com:MrZQxiao/ZQFoundation.git"
+  ZQHome:
+    :branch: develop
+    :git: "git@github.com:MrZQxiao/ZQHome.git"
+  ZQLogin:
+    :branch: develop
+    :git: "git@github.com:MrZQxiao/ZQLogin.git"
+  ZQMine:
+    :branch: develop
+    :git: "git@github.com:MrZQxiao/ZQMine.git"
+  ZQMixedModule:
+    :branch: develop
+    :git: "git@github.com:MrZQxiao/ZQMixedModule.git"
+  ZQRouter:
+    :branch: develop
+    :git: "git@github.com:MrZQxiao/ZQRouter.git"
+  ZQSwiftModule:
+    :branch: develop
+    :git: "git@github.com:MrZQxiao/ZQSwiftModule.git"
 
 CHECKOUT OPTIONS:
   ZQFoundation:
-    :commit: 4c1aec1d3b195eff8dde771b78efeec58bd10286
+    :commit: d9f6887c513859fd396bcdd833d31a7c0033b6d3
     :git: "git@github.com:MrZQxiao/ZQFoundation.git"
+  ZQHome:
+    :commit: 6f0144d9181931ee8d349c555c9c900656b88a47
+    :git: "git@github.com:MrZQxiao/ZQHome.git"
+  ZQLogin:
+    :commit: 5f8716cab1c51ebc90ba6f46b88901baab23eb07
+    :git: "git@github.com:MrZQxiao/ZQLogin.git"
+  ZQMine:
+    :commit: 63198885d7c90bed4fbade10d8c635319f0a87ca
+    :git: "git@github.com:MrZQxiao/ZQMine.git"
+  ZQMixedModule:
+    :commit: 944310dc7ac6e019056cd658d4e0b89e524efdf1
+    :git: "git@github.com:MrZQxiao/ZQMixedModule.git"
+  ZQRouter:
+    :commit: f2cca177b346a1d7655a810e466e8b85debee11d
+    :git: "git@github.com:MrZQxiao/ZQRouter.git"
+  ZQSwiftModule:
+    :commit: 98b608cfe4e82691e5ae565f54265de5d7fd5b29
+    :git: "git@github.com:MrZQxiao/ZQSwiftModule.git"
 
 SPEC CHECKSUMS:
-  ZQFoundation: 3face09f8e9370df850ced5f70bd2bad5275687e
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+  ZQFoundation: b5df33ee5ea245ab8db8e997574adadb241341d3
+  ZQHome: 0d5d3f92a39935b3877937d1976394635007c7d5
+  ZQLogin: e557cfda98fd27be0d1fd855fbf8765ebb066544
+  ZQMine: f8aaab4149c0a5f0fdc5040236bc4e50f8cc72ac
+  ZQMixedModule: a11901f53b091ffa1b497ae8e938b7fd296e3ea4
+  ZQRouter: 9100073f2f469137700bcf213019dfab597f34b2
+  ZQSwiftModule: 332f093e935ecf72d627fabefd75a07337232330
 
 PODFILE CHECKSUM: 5e9233e4a8a4bd31ddf1359702b47b830a31b97d
 

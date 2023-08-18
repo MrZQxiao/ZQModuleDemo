@@ -1,0 +1,22 @@
+{
+  "name": "ZQMine",
+  "version": "1.0.0",
+  "summary": "我的组件",
+  "description": "ZQModuleDemo我的组件",
+  "homepage": "https://www.jianshu.com/u/33e45e444e13",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaozq": "285061422@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MrZQxiao/ZQMine.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ZQMine/Classes/**/*"
+}

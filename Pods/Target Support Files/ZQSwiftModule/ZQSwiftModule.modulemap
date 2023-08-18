@@ -1,0 +1,6 @@
+framework module ZQSwiftModule {
+  umbrella header "ZQSwiftModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

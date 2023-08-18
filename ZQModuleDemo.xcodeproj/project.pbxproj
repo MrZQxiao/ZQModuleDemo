@@ -18,6 +18,8 @@
 		B1A5FFCA2A8CC01500B94A2A /* ZQModuleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFC92A8CC01500B94A2A /* ZQModuleDemoTests.m */; };
 		B1A5FFD42A8CC01500B94A2A /* ZQModuleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFD32A8CC01500B94A2A /* ZQModuleDemoUITests.m */; };
 		B1A5FFD62A8CC01500B94A2A /* ZQModuleDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5FFD52A8CC01500B94A2A /* ZQModuleDemoUITestsLaunchTests.m */; };
+		B1FE0DC32A8F70E40009D4D7 /* innerPodConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FE0DC22A8F70E40009D4D7 /* innerPodConfig.json */; };
+		B1FE0DC62A8F71530009D4D7 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FE0DC52A8F71530009D4D7 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		B1A5FFCF2A8CC01500B94A2A /* ZQModuleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQModuleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A5FFD32A8CC01500B94A2A /* ZQModuleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQModuleDemoUITests.m; sourceTree = "<group>"; };
 		B1A5FFD52A8CC01500B94A2A /* ZQModuleDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQModuleDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B1FE0DC22A8F70E40009D4D7 /* innerPodConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = innerPodConfig.json; sourceTree = "<group>"; };
+		B1FE0DC42A8F71520009D4D7 /* ZQModuleDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZQModuleDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B1FE0DC52A8F71530009D4D7 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		CB079A020BB6F8FEA0492298 /* Pods-ZQModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQModuleDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZQModuleDemo/Pods-ZQModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +97,6 @@
 				CB079A020BB6F8FEA0492298 /* Pods-ZQModuleDemo.debug.xcconfig */,
 				8825E8B7B15BAFB36633B420 /* Pods-ZQModuleDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +111,7 @@
 		B1A5FFA12A8CC01100B94A2A = {
 			isa = PBXGroup;
 			children = (
+				B1FE0DC22A8F70E40009D4D7 /* innerPodConfig.json */,
 				B1A5FFAC2A8CC01100B94A2A /* ZQModuleDemo */,
 				B1A5FFC82A8CC01500B94A2A /* ZQModuleDemoTests */,
 				B1A5FFD22A8CC01500B94A2A /* ZQModuleDemoUITests */,
@@ -135,11 +140,13 @@
 				B1A5FFB12A8CC01100B94A2A /* SceneDelegate.m */,
 				B1A5FFB32A8CC01100B94A2A /* ViewController.h */,
 				B1A5FFB42A8CC01100B94A2A /* ViewController.m */,
+				B1FE0DC52A8F71530009D4D7 /* test.swift */,
 				B1A5FFB62A8CC01100B94A2A /* Main.storyboard */,
 				B1A5FFB92A8CC01500B94A2A /* Assets.xcassets */,
 				B1A5FFBB2A8CC01500B94A2A /* LaunchScreen.storyboard */,
 				B1A5FFBE2A8CC01500B94A2A /* Info.plist */,
 				B1A5FFBF2A8CC01500B94A2A /* main.m */,
+				B1FE0DC42A8F71520009D4D7 /* ZQModuleDemo-Bridging-Header.h */,
 			);
 			path = ZQModuleDemo;
 			sourceTree = "<group>";
@@ -172,6 +179,7 @@
 				B1A5FFA62A8CC01100B94A2A /* Sources */,
 				B1A5FFA72A8CC01100B94A2A /* Frameworks */,
 				B1A5FFA82A8CC01100B94A2A /* Resources */,
+				4A2C39E69F16057F1306E7F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +237,7 @@
 				TargetAttributes = {
 					B1A5FFA92A8CC01100B94A2A = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 					B1A5FFC42A8CC01500B94A2A = {
 						CreatedOnToolsVersion = 14.0;
@@ -265,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FE0DC32A8F70E40009D4D7 /* innerPodConfig.json in Resources */,
 				B1A5FFBD2A8CC01500B94A2A /* LaunchScreen.storyboard in Resources */,
 				B1A5FFBA2A8CC01500B94A2A /* Assets.xcassets in Resources */,
 				B1A5FFB82A8CC01100B94A2A /* Main.storyboard in Resources */,
@@ -288,6 +298,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4A2C39E69F16057F1306E7F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZQModuleDemo/Pods-ZQModuleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FBE10983C642B5A4AB99C6A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,6 +345,7 @@
 				B1A5FFB52A8CC01100B94A2A /* ViewController.m in Sources */,
 				B1A5FFAF2A8CC01100B94A2A /* AppDelegate.m in Sources */,
 				B1A5FFC02A8CC01500B94A2A /* main.m in Sources */,
+				B1FE0DC62A8F71530009D4D7 /* test.swift in Sources */,
 				B1A5FFB22A8CC01100B94A2A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94FRQ84JDQ;
@@ -510,6 +537,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = qzxs.ZQModuleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ZQModuleDemo/ZQModuleDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -520,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94FRQ84JDQ;
@@ -538,6 +569,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = qzxs.ZQModuleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ZQModuleDemo/ZQModuleDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -545,6 +578,7 @@
 		B1A5FFDD2A8CC01500B94A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -563,6 +597,7 @@
 		B1A5FFDE2A8CC01500B94A2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -581,6 +616,7 @@
 		B1A5FFE02A8CC01500B94A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94FRQ84JDQ;
@@ -597,6 +633,7 @@
 		B1A5FFE12A8CC01500B94A2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94FRQ84JDQ;

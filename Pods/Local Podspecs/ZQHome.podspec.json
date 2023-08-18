@@ -1,0 +1,48 @@
+{
+  "name": "ZQHome",
+  "version": "1.0.1",
+  "summary": "主页组件",
+  "description": "ZQModuleDemo首页组件",
+  "homepage": "https://www.jianshu.com/u/33e45e444e13",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaozq": "285061422@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MrZQxiao/ZQHome.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "Kit",
+      "source_files": "ZQHome/Classes/Kit/**/*",
+      "dependencies": {
+        "ZQFoundation": [
+
+        ],
+        "ReactiveObjC": [
+
+        ],
+        "MJRefresh": [
+
+        ]
+      }
+    },
+    {
+      "name": "Mediator",
+      "source_files": "ZQHome/Classes/Mediator/**/*",
+      "dependencies": {
+        "ZQHome/Kit": [
+
+        ]
+      }
+    }
+  ]
+}

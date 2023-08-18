@@ -1,0 +1,22 @@
+{
+  "name": "ZQMixedModule",
+  "version": "1.0.0",
+  "summary": "混编组件",
+  "description": "ZQModuleDemo混编组件",
+  "homepage": "https://www.jianshu.com/u/33e45e444e13",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaozq": "285061422@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MrZQxiao/ZQMixedModule.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ZQMixedModule/Classes/**/*"
+}
