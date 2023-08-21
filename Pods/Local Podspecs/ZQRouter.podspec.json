@@ -18,10 +18,25 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "ZQRouter/Router/**/*",
-  "dependencies": {
-    "ZQFoundation/Categories": [
+  "source_files": "ZQRouter/**/*",
+  "subspecs": [
+    {
+      "name": "Router",
+      "source_files": "ZQRouter/ZQRouter/**/*",
+      "dependencies": {
+        "ZQFoundation/Categories": [
 
-    ]
-  }
+        ]
+      }
+    },
+    {
+      "name": "Module",
+      "source_files": "ZQRouter/Module/**/*",
+      "dependencies": {
+        "ZQRouter/Router": [
+
+        ]
+      }
+    }
+  ]
 }

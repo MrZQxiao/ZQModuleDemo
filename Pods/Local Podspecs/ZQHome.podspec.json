@@ -43,6 +43,15 @@
 
         ]
       }
+    },
+    {
+      "name": "Module",
+      "source_files": "ZQHome/Classes/Module/**/*",
+      "dependencies": {
+        "ZQRouter/Module": [
+
+        ]
+      }
     }
   ]
 }

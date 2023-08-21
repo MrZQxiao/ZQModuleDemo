@@ -15,6 +15,7 @@
 #import "ZQHomeListCell.h"
 #import "ZQHomeViewModel.h"
 #import "Service_Home.h"
+#import "ZQHomeModule.h"
 
 FOUNDATION_EXPORT double ZQHomeVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZQHomeVersionString[];

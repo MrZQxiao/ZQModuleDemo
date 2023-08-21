@@ -18,5 +18,30 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "ZQMine/Classes/**/*"
+  "source_files": "ZQMine/Classes/**/*",
+  "dependencies": {
+    "ZQFoundation": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Kit",
+      "source_files": "ZQMine/Classes/Kit/**/*",
+      "dependencies": {
+        "ZQRouter/Router": [
+
+        ]
+      }
+    },
+    {
+      "name": "Mediator",
+      "source_files": "ZQRouter/Module/**/*",
+      "dependencies": {
+        "ZQMine/Kit": [
+
+        ]
+      }
+    }
+  ]
 }

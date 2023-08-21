@@ -7,12 +7,12 @@
             "version" : "1.0.0",
             "branch" : ""
         },{
-            "dependency_env" : 2,
+            "dependency_env" : 3,
             "pod" : "ZQRouter",
             "version" : "1.0.0",
             "branch" : ""
         },{
-            "dependency_env" : 2,
+            "dependency_env" : 3,
             "pod" : "ZQHome",
             "version" : "1.0.0",
             "branch" : ""
@@ -22,7 +22,7 @@
             "version" : "1.0.0",
             "branch" : ""
         },{
-            "dependency_env" : 2,
+            "dependency_env" : 3,
             "pod" : "ZQMine",
             "version" : "1.0.0",
             "branch" : ""
@@ -39,6 +39,6 @@
         }
     ] ,
     "zq_git" : "git@github.com:MrZQxiao",
-    "repositoriesPath" : "~/Desktop/workspace/Repositories",
+    "repositoriesPath" : "~/Desktop/workspace/Repositories/",
     "branch" : "develop"
 }

@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "ZQMineController.h"
+#import "Service_Mine.h"
+#import "ZQMineController.h"
 
 FOUNDATION_EXPORT double ZQMineVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZQMineVersionString[];
